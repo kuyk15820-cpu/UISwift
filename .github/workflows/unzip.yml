@@ -33,7 +33,7 @@ jobs:
         run: |
           mkdir -p /Users/runner/theos/sdks
           # ดึง SDK ตรงจาก Xcode บนเครื่องเพื่อแก้ปัญหาไฟล์ตระกูล tar.xz พัง
-          ln -s /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk /Users/runner/theos/sdks/iPhoneOS16.5.sdk
+          ln -s /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk /Users/runner/theos/sdks/iPhoneOS16.0.sdk
 
       - name: build package
         run: |
