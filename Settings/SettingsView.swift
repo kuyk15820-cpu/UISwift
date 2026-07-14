@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PartyUI
+// import PartyUI
 
 struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
