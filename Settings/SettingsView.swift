@@ -66,3 +66,12 @@ struct SettingsView: View {
         }
     }
 }
+
+// MARK: - Color Extensions
+extension Color {
+    // สีของ Discord (#5865F2)
+    static let discord = Color(red: 88 / 255, green: 101 / 255, blue: 242 / 255)
+    
+    // สีของ GitHub (#24292F)
+    static let github = Color(red: 36 / 255, green: 41 / 255, blue: 47 / 255)
+}
